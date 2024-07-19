@@ -1,0 +1,241 @@
+.background-imagess {
+    background-image: url('../assets/Images/register1.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    
+    
+    
+    }
+    /* Add this CSS in your login.css or a relevant CSS file */
+.password-strength-bar {
+  height: 8px;
+  width: 100%;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.password-strength-bar-fill {
+  height: 100%;
+  border-radius: 5px;
+}
+
+.password-strength-weak {
+  background-color: red;
+}
+
+.password-strength-medium {
+  background-color: orange;
+}
+
+.password-strength-strong {
+  background-color: green;
+}
+input[type="password"] {
+  width: 100%;
+  border: none;
+  border-bottom: 2px solid #CD8F68;
+  outline: none;
+  padding: 8px 0;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+input[type="password"]:focus {
+  border-bottom: 2px solid #985157;
+}
+
+    .login-info {
+        text-align: center;
+        position: absolute;
+        top: 18%; /* Adjust as needed for vertical position */
+         left: 20%;
+        transform: translateX(-50%);
+        
+        
+        
+    } 
+     .register-info {
+        text-align: center;
+        position: absolute;
+        top: 9%; /* Adjust as needed for vertical position */
+         left: 17%;
+        transform: translateX(-50%);
+        width: 26%;
+        
+        
+        
+        
+    } 
+   
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+       
+      }
+      
+      .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        max-width: 95%;
+        margin-top: 3%;
+      }
+      
+      .header {
+        width: 100%;
+        background-color: #a46483;
+        color: #fff;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+      }
+      
+      .logo {
+        font-size: 24px;
+        font-weight: bold;
+      }
+      
+      .nav a {
+        color: #fff;
+        margin: 0 10px;
+        text-decoration: none;
+      }
+      
+      .auth-buttons {
+        display: flex;
+      }
+      
+     
+      
+      .content {
+        display: flex;
+        margin-top: 20px;
+        width: 80%;
+      }
+      
+      .image-containerr {
+        flex: 1;
+        padding: 40px;
+      }
+      
+      .image-containerr img {
+        width: 100%;
+        height: 70%;
+        border-radius: 10px;
+      
+        margin-left: -20%;
+        
+        
+      }
+      
+      .form-container {
+        flex: 1;
+        padding: 20px;
+        
+       
+        border-radius: 10px;
+       
+      }
+      
+      .form-container h2 {
+        margin-bottom: 20px;
+        color:#9A5865;
+      }
+      
+      .form-container form {
+        display: flex;
+        flex-direction: column;
+      }
+      
+      /* Existing input field styles */
+.form-container form input {
+    margin-bottom: 20px;
+    padding: 10px 0;
+    border: none;
+    border-bottom: 2px solid #9A5865;
+    outline: none;
+    font-size: 18px;
+  }
+  
+  /* Add hover effect for the input fields */
+  .form-container form input:hover {
+    border-bottom: 2px solid #9A5865; /* Change to the desired hover color */
+  }
+  
+  /* Add focus effect for the input fields */
+  .form-container form input:focus {
+    border-bottom: 2px solid #9A5865; /* Change to the desired focus color */
+  }
+  
+  /* Placeholder styling */
+  .form-container form input::placeholder {
+    color: #CFA2A7; /* Change to the desired placeholder color */
+    opacity: 1; /* Ensure full opacity for the placeholder */
+  }
+  
+  /* Placeholder styling on focus */
+  .form-container form input:focus::placeholder {
+    color: #a48a64; /* Change to the desired color when the input is focused */
+  }
+  
+      .form-container form .buttonn {
+        padding: 10px;
+        border: none;
+        background-color: #9A5865;
+        color: #fff;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+      }
+      .form-container form .buttonn:hover {
+        background-color: #b93852;
+      }
+      .existing-user {
+        margin-top: 10px;
+        color:#CD8F68;
+        font-size: 18px;
+      }
+      
+      
+      
+      .sign-up-options p {
+        margin-top: 4%;
+        color: #9A5865;
+        font-size: 17px;
+      }
+      
+      .social-buttons {
+        display: flex;
+      }
+      
+      .social-buttons button {
+        background-color: #9a586569;
+        
+        border: none;
+        padding: 10px;
+        margin-right: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      
+      .forgetPassword{
+        background-color: white;
+        color:#CD8F68;
+        margin:3%;
+      }
+      .forgetPassword:hover{
+        background-color: none;
+      }
+      
+      
+      

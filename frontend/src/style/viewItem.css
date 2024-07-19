@@ -1,0 +1,133 @@
+/* Styles for the page */
+.candle-holders-container {
+  text-align: center;
+ margin: 0;
+  background-color: #f9ecee;
+ 
+}
+.candlee{
+
+  font-size: 2.2em;
+    
+    color: #9A5865; ;
+}
+.category-title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #e3c4c96e; /* Change this color to match the image */
+}
+
+.grid-container-item {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Adjust number of columns as needed */
+  gap: 6rem; /* Adjust spacing as needed */
+  margin-top: 2rem;
+  padding: 0 1rem;
+  width: 87%;
+  margin-left: 6%;
+
+ 
+}
+
+.menus-item.cardd {
+ 
+background-color: #e3c4c976;
+  border: none; /* No border */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px #9d545a5f;
+  transition: transform 0.2s ease;
+  text-align: left;
+}
+
+.menus-item.cardd:hover {
+  transform: translateY(-5px);
+}
+
+.card-item-img {
+  width: 100%;
+  height: 300px; /* Adjust height as needed */
+  object-fit: cover;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-body-item {
+  padding: 1rem;
+}
+
+.card-title-item {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #9A5865; /* Darker text color */
+}
+
+.card-rating {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+
+.rating-star {
+  color: #f5c518;
+  margin-right: 0.25rem;
+  
+}
+
+.rating-value {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-right: 0.25rem;
+  color: #9A5865;
+}
+
+.rating-count {
+  font-size: 0.875rem;
+  color: #9A5865;
+}
+
+.price-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.card-price-label {
+  font-size: 1rem;
+  color: #595959;
+}
+
+.card-price-value {
+  font-size: 1.26rem;
+  display: flex;
+  align-items: baseline;
+}
+
+.price-bold {
+  font-weight: bold;
+ 
+  color:  #9A5865; /* Darker text color */
+}
+
+.price-dim {
+  color: #777; /* Dimmed text color */
+  margin-left: 0.25rem;
+}
+
+.btn.btn-details-item {
+  display: inline-block;
+  padding: 0.6rem 2rem;
+  background-color: #9A5865; /* Button color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 1.2rem;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+ margin-left: 21%;
+}
+
+.btn.btn-details-item:hover {
+  opacity: 1;
+    background-color:#a4374d ;
+}

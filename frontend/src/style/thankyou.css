@@ -1,0 +1,146 @@
+.thank-you-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    
+    height:91.5vh;
+   
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9ecee;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the thank you card */
+.thank-you-card {
+    background-color: white;
+    width: 50%;
+    height: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 2%;
+ 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.368);
+    text-align: center;
+    
+}
+
+/* Icon container */
+.thankyou-icon-container {
+    position: relative;
+    width: 12%;
+    height: 15%;
+    margin: 0 auto 20px;
+    margin-top: 10%;
+}
+
+/* Icon background animation */
+.icon-background-thankyou {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #b93852;
+    border-radius: 50%;
+    animation: pulse 1.5s infinite;
+}
+
+/* Icon checkmark */
+.icon-checkmark-thankyou {
+    position: relative;
+    font-size: 38px;
+    color: white;
+    line-height: 80px;
+    text-align: center;
+}
+
+/* Pulsing animation */
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+    50% {
+        transform: scale(1.2);
+        opacity: 0.6;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 0.8;
+    }
+}
+
+/* Heading */
+.thankyou-h1 {
+    font-size: 40px;
+    color: #9A5865;
+    margin-bottom: 2%;
+    font-weight: bold;
+    margin-top: 8%;
+}
+
+/* Paragraph */
+.thankyou-p {
+    color: #9A5865;
+    font-size: 17px;
+    margin-bottom: 4%;}
+
+.buttons-container-thankyou{
+    margin-top: 8%;
+    display: flex;
+
+}
+
+
+
+/* View order button */
+.view-order-button-thankyou {
+    color: white;
+    border: none;
+    width: 300px;
+    cursor: pointer;
+   margin-right: 8%;
+  
+    display: inline-block;
+    padding: 0.4rem 4rem; /* Reduced padding */
+    background-color: #d196a0; /* Button color */
+    border-radius: 5px;
+    font-size: 1.2rem; /* Reduced font size */
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    height: 55px;
+    box-shadow: 0 5px 15px rgba(52, 51, 51, 0.354);
+    margin-left: 14%;
+}
+
+.view-order-button-thankyou:hover {
+    background-color: #b93852;
+    ;
+}
+.continue-shopping-button-thankyou {
+    color: white;
+    border: none;
+    cursor: pointer;
+   
+    box-shadow: 0 5px 15px rgba(52, 51, 51, 0.354);
+    display: inline-block;
+    padding: 0.4rem 4rem; /* Reduced padding */
+    background-color: #9A5865; /* Button color */
+    border-radius: 5px;
+    font-size: 1.2rem; /* Reduced font size */
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    height: 55px;
+  }
+  .continue-shopping-button-thankyou:hover {
+    background-color: #b93852;
+
+  }
+/* Continue shopping button */
+
+

@@ -1,0 +1,57 @@
+.btn-dashboard{
+
+color: white;
+    border: none;
+    width: 300px;
+    cursor: pointer;
+   margin-right: 8%;
+   margin-left:4% ;
+  
+    display: inline-block;
+    padding: 0.4rem 4rem; /* Reduced padding */
+    background-color: #9A5865; /* Button color */
+    border-radius: 5px;
+    font-size: 1.2rem; /* Reduced font size */
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    height: 55px;
+    box-shadow: 0 5px 15px rgba(52, 51, 51, 0.354);
+    
+}
+
+.btn-dashboard:hover{
+    background-color: #e88fa1;
+transition: 0.5s;
+}
+.head-dashboard{
+    height: 57px;
+    background-color:#9A5865;
+ 
+}
+.dash-table-head{
+    background-color:#9A5865;
+        color: white;
+     font-size:19px
+}
+.table-striped-dash{
+width: 95%;
+margin-left: 3%;
+}
+.dash-td{
+    vertical-align: middle;
+}
+.search-containerr {
+    padding: 10px;
+    width: 70%;
+    margin-left: 5.5%;
+    margin-bottom: 3%;
+  }
+  
+  .search-barr {
+    display: flex;
+    align-items: center;
+  }
+  
+  .sort-button {
+    margin-left: auto;
+  }

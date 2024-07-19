@@ -1,0 +1,137 @@
+.request-history {
+    width: 100%;
+    height:fit-content;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9ecee;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .headerr {
+    text-align: center;
+    color: #9A5865;
+   
+    margin-top: 3%;
+    font-size: 1.8em;
+    
+  }
+  
+  .table-container {
+    background-color: #fff;
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 3%;
+  }
+  
+  .request-table {
+    width: 90%;
+    border-collapse: separate;
+    margin: 0 auto;
+    border-spacing: 0 25px; /* Gap between rows */
+    
+  }
+  
+  .request-table th,
+  .request-table td {
+    padding: 22px;
+    text-align: left;
+    
+  
+    
+  }
+  .request-table th{
+    font-size: 19px;
+    color: #9A5865;
+    text-align: center;
+    
+  }
+  .request-table tbody tr td{
+    text-align: center;
+  }
+  .request-table tbody tr {
+    background-color: #f9ecee;
+    color: #a4374d;
+    
+   
+   
+    font-size: 21px;
+    border-bottom: 4px solid #9A5865;
+    
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.294);
+  position: relative; /* To apply shadow effect */
+  z-index: 1;
+  overflow: hidden; /* To ensure the shadow effect is visible */
+  
+      
+    
+  }
+ 
+  .request-table .table-row {
+    background-color: #fdf7f7;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .product-image {
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    object-fit: cover;
+  }
+  
+  
+  
+  .statusOn-progress {
+    background-color: #F7A23E;
+    color: #fff;
+    display: inline-block;
+    padding: 7px 12px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    height:60px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.454);
+  }
+  
+  .status-approved {
+    background-color: #61AE45;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    text-align: center;
+    height:60px;
+    width: 150px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.454);
+  }
+  .status-canceled {
+    background-color: #911931;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    text-align: center;
+    height:60px;
+    width: 150px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.454);
+  }
+
+   .status-pending {
+    background-color: #3b70a5;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    width: 150px;
+    height:60px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.454);
+  }

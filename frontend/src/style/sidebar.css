@@ -1,0 +1,117 @@
+
+.head{
+  color:#9A5865;
+  font-weight: 600;
+}
+
+
+.container1{
+  display: flex;
+  width: calc(100% - 280px); /* Adjusted width to exclude sidebar */
+  margin-left: 280px; /* Added margin to accommodate sidebar */
+}
+
+
+.sidebar1{
+    
+    background-color: #9A5865;
+    color: white;
+    font-weight: 800;
+}
+.navbar1 {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 15%;
+ 
+}
+
+.logo1 {
+ font-size: 25px;
+ font-weight: normal;
+  width: 100px;
+  margin-left: 12%;
+
+  display: flex;
+  align-items: center;
+
+}
+
+
+
+.logo1 .h1 {
+  margin-left: 1rem;
+  text-transform: uppercase;
+}
+
+.ul1 {
+  margin: 55% auto;
+
+
+}
+.navLink1{
+    color: white;
+    text-decoration: none;
+    margin-top: 5%;
+}
+.navLink1 :hover{
+    color: black;
+    transition: 1s;
+}
+.li1 {
+  padding-bottom: 2rem;
+  margin-top: 10%;
+}
+
+
+
+.navItem1 {
+    text-decoration: none;
+    margin-top: 5%;
+   
+}
+
+.dropdown-sidebar{
+  border:none;
+  background: none;
+  color: white;
+}
+.dropdown-sidebar:hover{
+color:black;
+transition: 1s;
+background: none;
+
+}
+
+.logout1 {
+  position: absolute;
+  bottom: 20px;
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+  
+  /* Adjust the width of the sidebar */
+  .navi {
+    width: 280px;
+    height: 100vh;
+    
+    position: fixed; /* Fix the sidebar position */
+    top: 0;
+    left: 0;
+  }
+  
+  /* Add margin to the content to make room for the sidebar */
+  .main-content {
+    margin-left: 280px; /* Match the width of the sidebar */
+    padding-top: 27px;
+    
+    width: calc(100% - 280px); /* Adjust the width to fill the remaining space */
+  }
+  .main{
+    margin: 1% 4% 7% 2%;
+
+  }
+  
+
+ 

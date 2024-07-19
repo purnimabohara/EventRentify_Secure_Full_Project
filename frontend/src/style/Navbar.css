@@ -1,0 +1,113 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  width: 100%;
+  font-size: 18px;
+ 
+ 
+  background-color: #9A5865;
+  color: white;
+}
+.nav-link {
+  color: white;
+  text-decoration: none;
+  position: relative;
+  font-size: 19px;
+}
+.btn.cart-button:hover {
+  border-color: white;
+  background-color: #a4374d;
+}
+.nav-link.active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px; /* Adjust this value to position the underline */
+  width: 100%;
+  height: 3px; /* Adjust this value for the thickness of the underline */
+  background-color: white;
+  border-radius: 1px; /* Optional: for rounded edges */
+}
+
+.navbar-nav .nav-link.active{
+  color: white;
+}
+.navbar-nav .nav-link:hover{
+  color: white;
+}
+.navbar-left {
+  display: flex;
+}
+
+.navbar-left span {
+  margin-right: 20px;
+}
+
+.navbar-center {
+  flex-grow: 1;
+  text-align: center;
+}
+
+.navbar-right button {
+
+  width: 40%;
+
+  
+  font-size: 18px;
+  background-color: var(--background);
+
+  border-color: var(--text-color);
+  
+  color: white;
+  
+  cursor: pointer;
+}
+.sign-in, .sign-up {
+  background-color: #a46483;
+  border-radius: 5px;
+  border: none;
+
+  font-size: 18px;
+  color: #fff;
+  padding: 12px 25px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.sign-up {
+  color: #9A5865;
+  background-color: #E3C4C9;
+}
+.sign-up :hover,
+.sign-in :hover{
+  border: #E3C4C9;
+  background-color: #a4374d;
+}
+.dropdown .dropdown-toggle {
+  color: white;
+  
+font-size: 20px;
+  transition: border-color 0.3s ease; /* Add smooth transition for border color */
+}
+
+.dropdown .dropdown-toggle:hover {
+  border-color: #E3C4C9;
+  background-color: #a4374d;
+ 
+}
+/* Style for the dropdown items */
+.dropdown-menu .dropdown-item {
+  color: #9A5865;
+  
+  box-shadow: 0 4px 8px #9a58656a; /* Add box shadow */
+  margin-top: 4%; /* Add some space between items */
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+/* Optional: Add hover effect for dropdown items */
+.dropdown-menu .dropdown-item:hover {
+ border-bottom:1px solid  #CD8F68; /* Light red background on hover */
+ color: #CD8F68;
+}

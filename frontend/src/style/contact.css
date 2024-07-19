@@ -1,0 +1,201 @@
+/* styles.css */
+.whole{
+  height: auto;
+  width: auto;
+}
+.background-images {
+  background-image: url('../assets/Images/request3.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  margin-top: 1px;
+  
+  height: 600px; 
+
+ 
+
+
+  
+  }
+  
+  
+  
+
+  
+  .contact-sections {
+     display: flex; 
+    justify-content: space-around;
+  
+    display: flex;
+    
+    
+    
+    background-color: #e3c4c96e;
+    
+  
+  
+    padding: 3%;
+  }
+  
+  .details-container {
+    
+    margin-top: 15%;
+    flex: 1;
+    margin-right: 10%;
+
+   
+    text-align: center;
+  }
+  
+  
+  
+  
+  
+  .form-containerr {
+    width: 100px; /* Adjust width as needed */
+    height: fit-content; /* Set height to fit its content */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.805); /* Add box-shadow */
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .form-containerr input,
+.form-containerr textarea {
+  margin-bottom: 6%;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 2px solid #9A5865;
+  outline: none;
+  font-size: 18px;
+  margin-top: 2%;
+}
+
+.form-containerr input:hover,
+.form-containerr textarea:hover {
+  border-bottom: 2px solid #9A5865; /* Change to the desired hover color */
+}
+
+.form-containerr input:focus,
+.form-containerr textarea:focus {
+  border-bottom: 2px solid #9A5865; /* Change to the desired focus color */
+}
+
+/* Placeholder styling */
+.form-containerr input::placeholder,
+ .descriptiontext::placeholder {
+  color: #9a5865da; /* Change to the desired placeholder color */
+  opacity: 1; /* Ensure full opacity for the placeholder */
+}
+
+
+/* Placeholder styling on focus */
+.form-containerr input:focus::placeholder,
+.form-containerr textarea:focus::placeholder {
+  color: #a48a64; /* Change to the desired color when the input is focused */
+}
+
+  
+
+  
+  
+  
+  
+ 
+  
+  .details-container,
+  .form-containerr {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .details-container {
+  
+    display: flex;
+    flex-direction: column;
+   
+   
+    
+   
+  }
+  
+  .details-container h2,h2 {
+    color: #9A5865;
+    margin-bottom: 2%;
+    font-weight: bold;
+  }
+  
+  .details-container p {
+    color: #9A5865;
+    font-weight: bold;
+    text-align: left;
+    
+    margin-left: 31%;
+    
+    
+  }
+  .details-container h6 {
+    color: #CFA2A7;
+   
+    margin-bottom: 4%;
+  }
+  
+  
+  
+
+  
+  .form-containerr form {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  
+  
+  
+ 
+  
+  .form-containerr button {
+    padding: 10px 20px;
+    background-color: #9A5865;
+    color: #fff;
+    border: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 7%;
+    margin-top: 2%;
+  }
+  
+  .form-containerr button:hover {
+    background-color: #b93852;
+  }
+
+  .form-containerr input[type="file"] {
+    color: #9A5865; /* Change to the desired color */
+    font-size: 18px;
+    border: none;
+    border-bottom: 2px solid #9A5865;
+    padding: 10px 0;
+    outline: none;
+    background-color: #fff;
+    cursor: pointer;
+   
+    margin-bottom: 6%;
+  }
+  
+  .form-containerr input[type="file"]::file-selector-button {
+    background-color: #9A5865;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-containerr input[type="file"]::file-selector-button:hover {
+    background-color: #b93852;
+  }
+  
+  

@@ -1,0 +1,79 @@
+body {
+  
+    font-family: Arial, Helvetica, sans-serif;
+    
+  }
+
+
+  
+    .background-image {
+     background-color:rgba(5, 55, 5, 0.186);
+      background-size: 60% 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+     
+     
+  }
+  .restaurant-info {
+    text-align: center;
+    position: absolute;
+    top: 25%; /* Adjust as needed for vertical position */
+    left: 50%;
+    transform: translateX(-50%);
+    font-weight: 800;
+    padding: 20px;
+    background-color: rgba(5, 55, 5, 0.615); /* Adjust opacity as needed */
+    color: rgba(217, 217, 217, 1);
+    opacity: 1; /* Set opacity to 1 for the text container */
+}
+
+  .itemlink{
+    text-decoration: none;
+    color: white;
+  }
+ 
+  
+  /* Container for catering info */
+  .catering-info-container {
+    padding: 2%;
+    background-color: rgb(2, 53, 2); /* Adjust opacity as needed */
+    text-align: center;
+  }
+  .res-name{
+    color: white;
+    font-weight: 500;
+    font-size: 30px;
+  }
+  .catering-info-container h2 {
+    margin-bottom: 13px;
+    color: rgba(255, 255, 255, 1); /* White text */
+   
+    font-weight: 600;
+    font-size: 30px;
+  }
+  
+  .stations {
+    color: rgba(255, 255, 255, 1); /* White text */
+   
+    font-weight: 500;
+    font-size: 17px;
+  }
+  
+  .stations span {
+    display: block;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(204, 204, 204, 1);
+    cursor: pointer; /* Change cursor to pointer on hover */
+    transition: background-color 0.3s ease; /* Smooth transition effect */
+  }
+  
+  .stations span:hover {
+    background-color: rgb(255, 255, 255);
+    color: black; /* Light green background on hover */
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .stations span.active {
+    background-color: rgba(255, 255, 255, 0.5); /* Darker green background for active item */
+    color: rgba(19, 69, 39, 1); /* Change text color for active item */
+  }

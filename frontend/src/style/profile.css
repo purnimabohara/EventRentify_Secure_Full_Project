@@ -1,0 +1,175 @@
+
+
+
+.profilepage {
+  background-color: #e3c4c96e;
+  width: 100%;
+  height:fit-content;
+}
+  
+.background-img2 {
+  background: none;
+  padding: 20px;
+}
+
+.profile-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 70%;
+  
+}
+
+.profile-header {
+  text-align: center;
+  font-weight: bold;
+  font-size: 24px;
+  color: #a55b6b;
+  margin-bottom: 20px;
+}
+
+.profile-content {
+  display: flex;
+  margin-left: 3%;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left-content {
+  text-align: left;
+  display: flex;
+  flex-direction: row;
+}
+
+.profile-photo {
+  margin-bottom: 10px;
+}
+
+.profile-photo-image {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+}
+
+.user-info {
+  text-align: left;
+  margin-top: 3%;
+  margin-left: 3%;
+  
+}
+
+.user-info h2 {
+  margin: 10px 0 5px 0;
+  font-size: 22px;
+  color: #9A5865;
+}
+
+.user-info p {
+  margin: 0;
+  font-size: 14px;
+  color: #9A5865;
+}
+
+.right-content {
+  width: 60%;
+}
+
+.edit-button {
+ 
+  background-color: #9A5865;
+  color: white;
+  border: none;
+  text-decoration: none;
+  padding: 7px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  margin-left: 66%;
+ 
+  align-self: flex-start;
+  
+  margin-top: 3%; 
+  
+}
+.edit-button:hover{
+  background-color: #b93852;
+  color: white;
+}
+
+.save-button{
+  background-color: #9A5865;
+  color: white;
+  border: none;
+  text-decoration: none;
+  padding: 7px 26px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  
+  
+}
+.save-button:hover{
+  background-color: #b93852;
+  color: white;
+}
+
+.profile-form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 38px;
+  width: 166%;
+  margin-top: 5%;
+}
+
+.profile-form .form-group {
+  flex: 1 1 45%;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.profile-form label {
+  margin-bottom: 5px;
+  font-size: 16px;
+  color: #9A5865;
+}
+
+.profile-form input {
+  padding: 5px;
+  border: 1px solid #f7eaea;
+  border-radius: 5px;
+  background-color: #e3c4c96e;
+  color: #9A5865;
+  font-size: 19px;
+}
+
+
+.email-info {
+  margin-top:13%;
+  margin-bottom: 5%;
+}
+
+.email-info h3 {
+  font-size: 20px;
+  color: #9A5865;
+  font-weight: bold;
+}
+.emails{
+  display: flex;
+  flex-direction: row;
+}
+
+.email-info p {
+ margin-top: 2%;
+ margin-left: 3%;
+  font-size: 16px;
+  color: #a48a64;
+}
+
+
+.btn-group {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}

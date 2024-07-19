@@ -1,0 +1,209 @@
+.item-details-container {
+  display: flex;
+  height: 91.1vh;
+}
+
+.image-contained {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8e5ea;
+}
+
+.item-imager{
+  margin-top: 2%;
+  margin-bottom: 5%;
+  border-radius: 10px;
+}
+.star-rating{
+  display :flex;
+  flex-direction: column;
+}
+.details-contained {
+  flex: 1;
+  margin-left: 5%;
+  color: #9A5865;
+  background-color: white;
+  margin-top: 3%; 
+  /* Add margin-top to details-container */
+}
+
+.item-name {
+  font-size: 2em;
+  margin-bottom: 20px;
+  font-weight: bold;
+  margin-left: 2%;
+}
+
+.description {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 7%;
+  
+  
+}
+.details-column{
+  margin-right: 9%;
+}
+.description-column, .details-column {
+  flex: 1;
+
+}
+.short-line {
+  width: 130%; /* Adjust this value to change the length of the line */
+  border-bottom: solid 2px #9A5865;
+  
+}
+.description-title, .details-title {
+  font-weight: bold;
+  font-size: 1.5rem;
+
+  
+ 
+}
+
+.description-column{
+  margin-left: 2%;
+}
+
+.total-pricee {
+  font-size: 1.5em;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.price {
+  font-size: 1.7em;
+  margin-bottom: 10px;
+  
+}
+.quantity-contained{
+  display: flex;
+  align-items: center;
+  margin-top: 1.1%;
+  
+  
+}
+
+.quantityAdd-button {
+  background-color: #2b6e35;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  margin: 0 10px;
+  
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quantity-display {
+  font-size: 1.5rem;
+  margin: 0 10px;
+}
+.add-quantity-button:hover,
+.quantityAdd-button:hover{
+  background-color: #b93852;
+}
+/* rating */
+.rating-button{
+  color: white;
+  border: none;
+  cursor: pointer;
+ 
+  margin-top: 14%;
+  display: inline-block;
+  padding: 0.3rem 2rem; /* Reduced padding */
+  background-color: #9A5865; /* Button color */
+  border-radius: 5px;
+  font-size: 1.2rem; /* Reduced font size */
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  height: 44px;
+}
+.rating-button:hover{
+  background-color:#b93852 ;
+}
+.star-icon {
+  cursor: pointer;
+  transition: color 0.3s ease;
+  color: #928e8eb2;
+  margin-left: 2%;
+  width:35px;
+ 
+  
+}
+
+/* Selected (clicked) star */
+.star-icon.selected {
+  color: #FFD700; /* Yellow color */
+}
+
+
+.add-quantityy-button {
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 22%;
+  margin-top: 4%;
+  display: inline-block;
+  padding: 0.4rem 4rem; /* Reduced padding */
+  background-color: #9A5865; /* Button color */
+  border-radius: 5px;
+  font-size: 1.2rem; /* Reduced font size */
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  height: 55px;
+}
+.add-quantityy-button :hover{
+  background-color: #b93852;
+}
+.add-quantity-button {
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-left: 30%;
+  margin-top: 4%;
+  display: inline-block;
+  padding: 0.4rem 4rem; /* Reduced padding */
+  background-color: #9A5865; /* Button color */
+  border-radius: 5px;
+  font-size: 1.2rem; /* Reduced font size */
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+  height: 55px;
+}
+.add-quantity-button :hover{
+  background-color: #b93852;
+}
+.vendor-name {
+  font-weight: bold;
+  font-size: 1.5em;
+  margin-top: 12px;
+  
+  
+}
+
+.vendor-email {
+  color: #9A5865;
+  font-size: 1.6em;
+
+}
+
+.price-quantity{
+  display: flex;
+margin-top: 3%;
+margin-left: 2%;
+
+}
+.price-quantityy{
+  display: flex;
+margin-top: 5%;
+
+
+}

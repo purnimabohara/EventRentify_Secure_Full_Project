@@ -1,0 +1,209 @@
+.booking-item {
+    background-color: #e3c4c96e;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container-booking {
+   margin-top: 2%;
+   margin-bottom: 4%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    height: fit-content; /* Set height to fit its content */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.56); /* Add box-shadow */
+    background-color: #fff;
+    width: 60%;
+    align-items: center;
+   
+  
+    min-height: 100vh;
+  }
+  
+  .reservation-form {
+    padding: 20px;
+    
+ 
+  }
+  
+  .form-booking {
+    display: flex;
+    flex-direction: column;
+    margin-left: 3%;
+    padding-left: 30px;
+    padding-right: 30px;
+    
+  }
+  
+  .label-booking {
+    font-size: 18px;
+    color: #9A5865;
+    margin-bottom: 1%;
+    font-weight: 500;
+  }
+  
+  .input-booking {
+    margin-bottom: 3%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    background-color: #e3c4c96e;
+   
+    font-size: 16px;
+    color:black;
+    width: 95%;
+  }
+  
+  .input-booking::placeholder {
+    color: black;
+    
+  }
+  
+  .flex-checkout {
+    display: flex;
+    justify-content: center;
+  }
+  .flex-checkout:hover{
+    transform: scale(0.97);
+  }
+  
+  .checkout-button {
+    background-color: #9A5865; 
+    border: none;
+    
+    
+    margin-top: 2%;
+    display: inline-block;
+    color: #ffffff;
+    padding: 0.4rem 4rem;
+    border: none;
+    height: 55px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.3rem; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    
+  }
+  
+  button:hover {
+    background-color: #900c3f;
+  }
+  
+  .infos-policy {
+    margin-top: 2%;
+   color: #9A5865;
+   
+  }
+  
+  .infos-policy p {
+    margin: 5px 0;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .infos-link {
+    color: #9A5865; 
+    cursor: pointer;
+    text-decoration: underline;
+    
+  }
+  .infos-link:hover{
+color: #900c3f;
+text-decoration: underline;
+  }
+  
+  .modal-booking {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    gap:20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+  }
+  
+  .modal-content {
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 800px;
+    height: 87%;
+    gap:20px;
+    width: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .modal-header {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: #9A5865; 
+  }
+  
+  .policy-list {
+    list-style-type: none;
+    padding: 0;
+   
+   
+  }
+  
+  .policy-list ul {
+    list-style-type: disc;
+    margin-left: 20px;
+    margin-bottom: 3%;
+    color:#9A5865;
+    font-size: 19px;
+  }
+  
+ 
+  .modal-content-return{
+    background: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 800px;
+    height: 70%;
+    gap:20px;
+    width: 100%;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  .policy-button {
+  display: inline-block;
+    background: #9A5865;
+    color: #fff;
+    padding: 0.6rem 10rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+   
+    align-self: center;
+   text-align: center;
+  }
+  
+  .policy-button:hover {
+    background: rgb(0, 119, 255);
+  }
+  .policy-return-button {
+    display: inline-block;
+      background: #9A5865;
+      color: #fff;
+      padding: 0.6rem 10rem;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 16px;
+     margin-left: 20%;
+      margin-top: 3%;
+     text-align: center;
+    }
+    .policy-return-button:hover {
+        background: rgb(0, 119, 255);
+      }
