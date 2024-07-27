@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5f45c5b2.css",
+    "main.js": "/static/js/main.7a90f4d8.js",
+    "static/media/register1.png": "/static/media/register1.fe7cc975c7089b752a1b.png",
+    "static/media/service2.png": "/static/media/service2.2d2c577080edaded76e1.png",
+    "static/media/homepage.jpg": "/static/media/homepage.c01fa73cddeca969107e.jpg",
+    "static/media/service3.png": "/static/media/service3.7d945f7502f2fb22deb1.png",
+    "static/media/service4.png": "/static/media/service4.b38da77220e0d668e4ca.png",
+    "static/media/homeBottom.jpg": "/static/media/homeBottom.090e5a3cfabcfebbe9c7.jpg",
+    "static/media/request3.jpg": "/static/media/request3.f5cfd98c680ef57b351b.jpg",
+    "static/media/team.jpg": "/static/media/team.2437b87b717eb205c1c0.jpg",
+    "static/media/login.jpg": "/static/media/login.76f983b07dae17a62fa7.jpg",
+    "static/media/contact.png": "/static/media/contact.fcdfc21fd67e022f5a4c.png",
+    "static/media/team1.jpg": "/static/media/team1.79220bc1cf197910c326.jpg",
+    "static/media/forgetPassword.png": "/static/media/forgetPassword.a538b613c66296e4703b.png",
+    "static/media/team2.jpg": "/static/media/team2.0eb30fb58f59fa0ccba2.jpg",
+    "static/media/service1.png": "/static/media/service1.7345e9cd7f555726aeb9.png",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.5f45c5b2.css",
+    "static/js/main.7a90f4d8.js"
+  ]
+}
