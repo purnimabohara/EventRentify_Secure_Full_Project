@@ -15,6 +15,19 @@ This version includes the following enhancements:
 
 The original [EventRentify](https://github.com/purnimabohara/EventRentify-Frontend) platform was designed to streamline Nepal’s fragmented event rental market, offering users the ability to rent items, track bookings, and manage vendors on a centralized platform.
 
+## 🖼 **Sample Screenshots**
+
+<p align="center">
+  <img src="frontend/src/assets/Images/Email Verification.png" width="45%" alt="OCR Screenshot">
+  &nbsp;
+  <img src="frontend/src/assets/Images/product_page.png" width="45%" alt="Generated PDF Screenshot">
+</p>
+<p align="center">
+  <img src="frontend/src/assets/Images/Edit Profile.png" width="45%" alt="OCR Screenshot">
+  &nbsp;
+  <img src="frontend/src/assets/Images/Booking form.png" width="45%" alt="Generated PDF Screenshot">
+</p>
+
 ## 🎯 Project Objectives (Security + UX)
 
 - Improve application **resilience against common web vulnerabilities**  
